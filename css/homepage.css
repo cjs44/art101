@@ -1,6 +1,39 @@
 /* this css file will only style the homepage of our site */
 
-.caitlin-portrait {
-  margin: 10px;
-  max-width: 500px;
+#caitlin-portrait {
+  width: 400px;
+}
+
+#alice-portrait {
+  width: 315px;
+}
+
+
+title {
+  font-family: arial, helvetica, sans-serif;
+  padding-left: 20px;
+  color: #fffaf0;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 200%;
+  color: palevioletred;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffff;
+
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-indent: 40px;
+  color: #ffff;
+}
+
+ul {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
