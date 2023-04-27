@@ -17,5 +17,5 @@ document.writeln("Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
-document.writeln("ownIt: " + ownIt + "<br>");
+document.writeln("Own It: " + ownIt + "<br>");
 document.writeln("Age: " + age + " years<br>");
