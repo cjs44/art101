@@ -1,21 +1,29 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 9 JavaScript for the Web
+// Author: Caitlin Smith and Alice Sheinin
+// Date: 5/11/23
 
-// Constants
+//find the output and assign it to a variable outputEl
+var outputEl = document.getElementById("output");
+console.log("outputEl: ", outputEl);
 
-// Functions
+//create a new element and assign it to a variable new1El
+var new1El = document.createElement("p");
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//change the html attribute of new1El
+new1El.innerHTML = "Something new";
+new1El.id = "first-element";
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//create another new element and assign it to a variable new2El
+var new2El = document.createElement("p");
 
-// let's get this party started
-main();
+//change the html attribute of new2El
+new2El.innerHTML = "Something else";
+new2El.id = "second-element";
+
+//append both new elements
+outputEl.appendChild(new1El);
+outputEl.appendChild(new2El);
+
+//change the css attributes
+new1El.style.color = "yellow";
+new2El.style.fontSize = "60pt";
