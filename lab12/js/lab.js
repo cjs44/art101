@@ -5,7 +5,7 @@
 // sort function
 function sortingHat(str) {
   // count letters in str, assign to length
-  var length = str.length;
+  var length = str.length();
   // mod 4 to get remainder
   var rem = length % 4;
   var result = "";
