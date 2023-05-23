@@ -5,9 +5,9 @@
 // sort function
 function sortingHat(str) {
   // count letters in str, assign to length
-  var length = str.length();
+  var len = str.length;
   // mod 4 to get remainder
-  var rem = length % 4;
+  var rem = len % 4;
   var result = "";
   // conditional for house
   if (rem == 0){
@@ -33,7 +33,7 @@ button.addEventListener("click", function() {
   // get the value from the input box
   var name = document.getElementById("input").value;
   // run sort
-  var house = sortingHat(input);
+  var house = sortingHat(name);
   // new p with result
   var newP = "<p>The Sorting Hat has sorted you into " + house + "</p>";
   // change the output div HTML to the result so it shows on the page
