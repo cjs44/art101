@@ -27,16 +27,14 @@ function sortingHat(str) {
 
 // event listener
 // find the button element
-var button = document.getElementById('button');
-// event listener
-button.addEventListener("click", function() {
+$("#button").click(function() {
   // get the value from the input box
-  var name = document.getElementById("input").value;
+  var name = $("#input").val();
   // run sort
   var house = sortingHat(name);
   // new p with result
   var newP = "<p>The Sorting Hat has sorted you into " + house + "</p>";
   // change the output div HTML to the result so it shows on the page
-  document.getElementById("output").innerHTML = newP;
+  $("#output").html(newP);
 });
 
