@@ -2,36 +2,42 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
-  background-image: url("../img/hogwarts.jpg");
+  background-image: url("../img/skynight.jpg");
   background-size: cover;
 }
 
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #d4c5a8;
-  box-shadow: 5px 5px 10px #736f6f;
-  opacity: 0.80;
+
+title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 80px;
 }
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #2a2ada60;
+  color: #f8f8fa;
   font-size: 200%;
-  text-shadow: 2px 2px #1e5129;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(244, 244, 244), 0 0 5px white;
 }
 
-h2 {
-  text-decoration: underline;
+h2, h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #f8f8fa;
 }
+
 
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-indent: 10px;
-  padding-top: 10px;
+  text-indent: 40px;
+  color: #f8f8fa;
 }
 
 .output {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sectionbox {
+  border: solid 1px white;
+  border-radius: 10px;
+  padding:10px;
+  margin: 10px;
 }
